@@ -1,0 +1,18 @@
+{
+    "manifest_vesrion": 2,
+    "name": "smallervids",
+    "version": "1.0",
+
+    "description": "Hides YouTube videos whose view counts exceed a certain threshold.",
+
+    "icons": {
+        "48": "icons/icon-48.jpg"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["smallervids.js"]
+        }
+    ]
+}
