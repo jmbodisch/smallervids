@@ -12,7 +12,7 @@
     "content_scripts": [
         {
             "matches": ["*://*.youtube.com/*"],
-            "js": ["smallervids.js", "jquery-3.5.1.slim.min.js"]
+            "js": ["smallervids.js"]
         }
     ]
 }
